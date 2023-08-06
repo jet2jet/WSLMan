@@ -225,6 +225,10 @@ Public Class MainForm
         MenuItemUpdateWSLUsingPrerelease.Enabled = s = WSLInstallation.StoreWSL
     End Sub
 
+    Private Sub OnAfterUpdateWSL()
+        InitForm()
+    End Sub
+
     Private Sub MainForm_Closed(sender As Object, e As EventArgs) Handles Me.Closed
         Application.Exit()
     End Sub
@@ -235,6 +239,7 @@ Public Class MainForm
         LoadDistributions()
         OnResizePageSettings()
         UpdateDistributionMenu()
+        UpdateWSLUpdateMenu()
     End Sub
 
     Private Sub OnResizePageSettings()
@@ -305,6 +310,7 @@ Public Class MainForm
     Private Sub MainForm_Activated(sender As Object, e As EventArgs) Handles Me.Activated
         InitForm()
         LoadDistributions()
+        UpdateWSLUpdateMenu()
     End Sub
 
     Private Sub RadioWSL_CheckedChanged(sender As Object, e As EventArgs) Handles RadioWSL2.CheckedChanged, RadioWSL1.CheckedChanged
@@ -535,18 +541,18 @@ Public Class MainForm
     Private Sub MenuItemUpdateWSLDefault_Click(sender As Object, e As EventArgs) Handles MenuItemUpdateWSLDefault.Click
         Dim exec = New ExecProgress()
         exec.ShowExecute("wsl.exe", "--update")
-        UpdateWSLInstallationStatus().ContinueWith(Sub() Invoke(Sub() UpdateWSLUpdateMenu()))
+        OnAfterUpdateWSL()
     End Sub
 
     Private Sub MenuItemUpdateWSLFromWeb_Click(sender As Object, e As EventArgs) Handles MenuItemUpdateWSLFromWeb.Click
         Dim exec = New ExecProgress()
         exec.ShowExecute("wsl.exe", "--update --web-download")
-        UpdateWSLInstallationStatus().ContinueWith(Sub() Invoke(Sub() UpdateWSLUpdateMenu()))
+        OnAfterUpdateWSL()
     End Sub
 
     Private Sub MenuItemUpdateWSLUsingPrerelease_Click(sender As Object, e As EventArgs) Handles MenuItemUpdateWSLUsingPrerelease.Click
         Dim exec = New ExecProgress()
         exec.ShowExecute("wsl.exe", "--update --pre-release")
-        UpdateWSLInstallationStatus().ContinueWith(Sub() Invoke(Sub() UpdateWSLUpdateMenu()))
+        OnAfterUpdateWSL()
     End Sub
 End Class
