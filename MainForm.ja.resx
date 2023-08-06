@@ -189,6 +189,9 @@
   <data name="LabelVmIdleTimeout.Text" xml:space="preserve">
     <value>VMシャットダウンまでのアイドル時間(&amp;T):</value>
   </data>
+  <data name="LabelWSLUpdateIsRecommended.Text" xml:space="preserve">
+    <value>WSLの更新をお勧めします。更新するには Ctrl+Shift+U を押してください。</value>
+  </data>
   <data name="MenuItemDistribution.Text" xml:space="preserve">
     <value>ディストリビューション</value>
   </data>
