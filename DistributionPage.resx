@@ -1,0 +1,673 @@
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="LabelDistributionName.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelDistributionName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LabelDistributionName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="LabelDistributionName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 37</value>
+  </data>
+  <data name="LabelDistributionName.Text" xml:space="preserve">
+    <value>Distribution &amp;name:</value>
+  </data>
+  <data name="&gt;&gt;LabelDistributionName.Name" xml:space="preserve">
+    <value>LabelDistributionName</value>
+  </data>
+  <data name="&gt;&gt;LabelDistributionName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelDistributionName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="LabelWSLVersion.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LabelWSLVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelWSLVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 75</value>
+  </data>
+  <data name="LabelWSLVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 37</value>
+  </data>
+  <data name="LabelWSLVersion.Text" xml:space="preserve">
+    <value>WSL version:</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLVersion.Name" xml:space="preserve">
+    <value>LabelWSLVersion</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLVersion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="LabelDefaultUser.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LabelDefaultUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelDefaultUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 187</value>
+  </data>
+  <data name="LabelDefaultUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 37</value>
+  </data>
+  <data name="LabelDefaultUser.Text" xml:space="preserve">
+    <value>Default &amp;user:</value>
+  </data>
+  <data name="&gt;&gt;LabelDefaultUser.Name" xml:space="preserve">
+    <value>LabelDefaultUser</value>
+  </data>
+  <data name="&gt;&gt;LabelDefaultUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelDefaultUser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="LabelPackageName.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LabelPackageName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelPackageName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 131</value>
+  </data>
+  <data name="LabelPackageName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 37</value>
+  </data>
+  <data name="LabelPackageName.Text" xml:space="preserve">
+    <value>&amp;Package name:</value>
+  </data>
+  <data name="&gt;&gt;LabelPackageName.Name" xml:space="preserve">
+    <value>LabelPackageName</value>
+  </data>
+  <data name="&gt;&gt;LabelPackageName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelPackageName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="LabelBasePath.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LabelBasePath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelBasePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 243</value>
+  </data>
+  <data name="LabelBasePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 37</value>
+  </data>
+  <data name="LabelBasePath.Text" xml:space="preserve">
+    <value>&amp;Base path:</value>
+  </data>
+  <data name="&gt;&gt;LabelBasePath.Name" xml:space="preserve">
+    <value>LabelBasePath</value>
+  </data>
+  <data name="&gt;&gt;LabelBasePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelBasePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="LabelAutoMountRoot.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LabelAutoMountRoot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelAutoMountRoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 92</value>
+  </data>
+  <data name="LabelAutoMountRoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 37</value>
+  </data>
+  <data name="LabelAutoMountRoot.Text" xml:space="preserve">
+    <value>&amp;Root path to mount:</value>
+  </data>
+  <data name="&gt;&gt;LabelAutoMountRoot.Name" xml:space="preserve">
+    <value>LabelAutoMountRoot</value>
+  </data>
+  <data name="&gt;&gt;LabelAutoMountRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelAutoMountRoot.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <metadata name="LabelAutoMountOptions.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LabelAutoMountOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelAutoMountOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 144</value>
+  </data>
+  <data name="LabelAutoMountOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 37</value>
+  </data>
+  <data name="LabelAutoMountOptions.Text" xml:space="preserve">
+    <value>&amp;Options:</value>
+  </data>
+  <data name="&gt;&gt;LabelAutoMountOptions.Name" xml:space="preserve">
+    <value>LabelAutoMountOptions</value>
+  </data>
+  <data name="&gt;&gt;LabelAutoMountOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelAutoMountOptions.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <data name="TextBoxDistributionName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 16</value>
+  </data>
+  <data name="TextBoxDistributionName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 43</value>
+  </data>
+  <data name="&gt;&gt;TextBoxDistributionName.Name" xml:space="preserve">
+    <value>TextBoxDistributionName</value>
+  </data>
+  <data name="&gt;&gt;TextBoxDistributionName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxDistributionName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LabelWSLVersionValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelWSLVersionValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 75</value>
+  </data>
+  <data name="LabelWSLVersionValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 37</value>
+  </data>
+  <data name="LabelWSLVersionValue.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLVersionValue.Name" xml:space="preserve">
+    <value>LabelWSLVersionValue</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLVersionValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLVersionValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TextBoxPackageName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 128</value>
+  </data>
+  <data name="TextBoxPackageName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 43</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPackageName.Name" xml:space="preserve">
+    <value>TextBoxPackageName</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPackageName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxPackageName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TextBoxBasePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 240</value>
+  </data>
+  <data name="TextBoxBasePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 43</value>
+  </data>
+  <data name="&gt;&gt;TextBoxBasePath.Name" xml:space="preserve">
+    <value>TextBoxBasePath</value>
+  </data>
+  <data name="&gt;&gt;TextBoxBasePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxBasePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonChangeBasePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 235</value>
+  </data>
+  <data name="ButtonChangeBasePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 53</value>
+  </data>
+  <data name="ButtonChangeBasePath.Text" xml:space="preserve">
+    <value>Change...</value>
+  </data>
+  <data name="&gt;&gt;ButtonChangeBasePath.Name" xml:space="preserve">
+    <value>ButtonChangeBasePath</value>
+  </data>
+  <data name="&gt;&gt;ButtonChangeBasePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonChangeBasePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxUseSystemd.Name" xml:space="preserve">
+    <value>CheckBoxUseSystemd</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxUseSystemd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxUseSystemd.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfBoot</value>
+  </data>
+  <data name="&gt;&gt;LabelBootCommand.Name" xml:space="preserve">
+    <value>LabelBootCommand</value>
+  </data>
+  <data name="&gt;&gt;LabelBootCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelBootCommand.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfBoot</value>
+  </data>
+  <data name="&gt;&gt;TextBoxBootCommand.Name" xml:space="preserve">
+    <value>TextBoxBootCommand</value>
+  </data>
+  <data name="&gt;&gt;TextBoxBootCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxBootCommand.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfBoot</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultBootCommand.Name" xml:space="preserve">
+    <value>CheckBoxDefaultBootCommand</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultBootCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultBootCommand.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfBoot</value>
+  </data>
+  <data name="GroupBoxWslConfBoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 414</value>
+  </data>
+  <data name="GroupBoxWslConfBoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>963, 142</value>
+  </data>
+  <data name="GroupBoxWslConfBoot.Text" xml:space="preserve">
+    <value>Boot configuration</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxWslConfBoot.Name" xml:space="preserve">
+    <value>GroupBoxWslConfBoot</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxWslConfBoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxWslConfBoot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CheckBoxUseSystemd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxUseSystemd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 42</value>
+  </data>
+  <data name="CheckBoxUseSystemd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 41</value>
+  </data>
+  <data name="CheckBoxUseSystemd.Text" xml:space="preserve">
+    <value>Use &amp;systemd</value>
+  </data>
+  <data name="LabelBootCommand.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelBootCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 86</value>
+  </data>
+  <data name="LabelBootCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 37</value>
+  </data>
+  <data name="LabelBootCommand.Text" xml:space="preserve">
+    <value>Boo&amp;t command:</value>
+  </data>
+  <data name="TextBoxBootCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 83</value>
+  </data>
+  <data name="TextBoxBootCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 43</value>
+  </data>
+  <data name="CheckBoxDefaultBootCommand.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultBootCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 85</value>
+  </data>
+  <data name="CheckBoxDefaultBootCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultBootCommand.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxAutoMountEnabled.Name" xml:space="preserve">
+    <value>CheckBoxAutoMountEnabled</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxAutoMountEnabled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxAutoMountEnabled.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxMountFsTab.Name" xml:space="preserve">
+    <value>CheckBoxMountFsTab</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxMountFsTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxMountFsTab.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <data name="&gt;&gt;TextBoxAutoMountRoot.Name" xml:space="preserve">
+    <value>TextBoxAutoMountRoot</value>
+  </data>
+  <data name="&gt;&gt;TextBoxAutoMountRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxAutoMountRoot.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultAutoMountRoot.Name" xml:space="preserve">
+    <value>CheckBoxDefaultAutoMountRoot</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultAutoMountRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultAutoMountRoot.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <data name="&gt;&gt;TextBoxAutoMountOptions.Name" xml:space="preserve">
+    <value>TextBoxAutoMountOptions</value>
+  </data>
+  <data name="&gt;&gt;TextBoxAutoMountOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxAutoMountOptions.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultAutoMountOptions.Name" xml:space="preserve">
+    <value>CheckBoxDefaultAutoMountOptions</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultAutoMountOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultAutoMountOptions.Parent" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <data name="GroupBoxWslConfAutoMount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 562</value>
+  </data>
+  <data name="GroupBoxWslConfAutoMount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>963, 200</value>
+  </data>
+  <data name="GroupBoxWslConfAutoMount.Text" xml:space="preserve">
+    <value>Auto mount configuration</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxWslConfAutoMount.Name" xml:space="preserve">
+    <value>GroupBoxWslConfAutoMount</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxWslConfAutoMount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxWslConfAutoMount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CheckBoxAutoMountEnabled.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxAutoMountEnabled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 42</value>
+  </data>
+  <data name="CheckBoxAutoMountEnabled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 41</value>
+  </data>
+  <data name="CheckBoxAutoMountEnabled.Text" xml:space="preserve">
+    <value>&amp;Enabled</value>
+  </data>
+  <data name="CheckBoxMountFsTab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxMountFsTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 42</value>
+  </data>
+  <data name="CheckBoxMountFsTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 41</value>
+  </data>
+  <data name="CheckBoxMountFsTab.Text" xml:space="preserve">
+    <value>Mount &amp;fstab</value>
+  </data>
+  <data name="TextBoxAutoMountRoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 92</value>
+  </data>
+  <data name="TextBoxAutoMountRoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 43</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountRoot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountRoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>707, 91</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountRoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountRoot.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="TextBoxAutoMountOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 141</value>
+  </data>
+  <data name="TextBoxAutoMountOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 43</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>707, 143</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountOptions.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ButtonOpenConfiguration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 355</value>
+  </data>
+  <data name="ButtonOpenConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 53</value>
+  </data>
+  <data name="ButtonOpenConfiguration.Text" xml:space="preserve">
+    <value>Open &amp;configuration</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenConfiguration.Name" xml:space="preserve">
+    <value>ButtonOpenConfiguration</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenConfiguration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="NumericDefaultUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 185</value>
+  </data>
+  <data name="NumericDefaultUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 43</value>
+  </data>
+  <data name="&gt;&gt;NumericDefaultUser.Name" xml:space="preserve">
+    <value>NumericDefaultUser</value>
+  </data>
+  <data name="&gt;&gt;NumericDefaultUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumericDefaultUser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonChangeDefaultUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 179</value>
+  </data>
+  <data name="ButtonChangeDefaultUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 53</value>
+  </data>
+  <data name="ButtonChangeDefaultUser.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;ButtonChangeDefaultUser.Name" xml:space="preserve">
+    <value>ButtonChangeDefaultUser</value>
+  </data>
+  <data name="&gt;&gt;ButtonChangeDefaultUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonChangeDefaultUser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ButtonSetAsDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 355</value>
+  </data>
+  <data name="ButtonSetAsDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 53</value>
+  </data>
+  <data name="ButtonSetAsDefault.Text" xml:space="preserve">
+    <value>Set as &amp;default</value>
+  </data>
+  <data name="&gt;&gt;ButtonSetAsDefault.Name" xml:space="preserve">
+    <value>ButtonSetAsDefault</value>
+  </data>
+  <data name="&gt;&gt;ButtonSetAsDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSetAsDefault.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TextBoxVhdFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 296</value>
+  </data>
+  <data name="TextBoxVhdFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 43</value>
+  </data>
+  <data name="&gt;&gt;TextBoxVhdFileName.Name" xml:space="preserve">
+    <value>TextBoxVhdFileName</value>
+  </data>
+  <data name="&gt;&gt;TextBoxVhdFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxVhdFileName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="LabelVhdFileName.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="LabelVhdFileName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelVhdFileName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelVhdFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 299</value>
+  </data>
+  <data name="LabelVhdFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 37</value>
+  </data>
+  <data name="LabelVhdFileName.Text" xml:space="preserve">
+    <value>.&amp;vhdx file name:</value>
+  </data>
+  <data name="&gt;&gt;LabelVhdFileName.Name" xml:space="preserve">
+    <value>LabelVhdFileName</value>
+  </data>
+  <data name="&gt;&gt;LabelVhdFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelVhdFileName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>15, 37</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 16, 16, 16</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>999, 830</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DistributionPage</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

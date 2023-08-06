@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PanelDefaultVersion.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelDefaultVersion.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelDefaultVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelDefaultVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LabelDefaultVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="LabelDefaultVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 43</value>
+  </data>
+  <data name="LabelDefaultVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LabelDefaultVersion.Text" xml:space="preserve">
+    <value>Default version:</value>
+  </data>
+  <data name="&gt;&gt;LabelDefaultVersion.Name" xml:space="preserve">
+    <value>LabelDefaultVersion</value>
+  </data>
+  <data name="&gt;&gt;LabelDefaultVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelDefaultVersion.Parent" xml:space="preserve">
+    <value>PanelDefaultVersion</value>
+  </data>
+  <data name="&gt;&gt;LabelDefaultVersion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RadioWSL1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioWSL1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioWSL1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 0</value>
+  </data>
+  <data name="RadioWSL1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="RadioWSL1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RadioWSL1.Text" xml:space="preserve">
+    <value>WSL&amp;1</value>
+  </data>
+  <data name="&gt;&gt;RadioWSL1.Name" xml:space="preserve">
+    <value>RadioWSL1</value>
+  </data>
+  <data name="&gt;&gt;RadioWSL1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioWSL1.Parent" xml:space="preserve">
+    <value>PanelDefaultVersion</value>
+  </data>
+  <data name="&gt;&gt;RadioWSL1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadioWSL2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RadioWSL2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RadioWSL2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 0</value>
+  </data>
+  <data name="RadioWSL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="RadioWSL2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RadioWSL2.Text" xml:space="preserve">
+    <value>WSL&amp;2</value>
+  </data>
+  <data name="&gt;&gt;RadioWSL2.Name" xml:space="preserve">
+    <value>RadioWSL2</value>
+  </data>
+  <data name="&gt;&gt;RadioWSL2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RadioWSL2.Parent" xml:space="preserve">
+    <value>PanelDefaultVersion</value>
+  </data>
+  <data name="&gt;&gt;RadioWSL2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelInboxWSLNotInstalled.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelInboxWSLNotInstalled.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelInboxWSLNotInstalled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 44</value>
+  </data>
+  <data name="LabelInboxWSLNotInstalled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 43</value>
+  </data>
+  <data name="LabelInboxWSLNotInstalled.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelInboxWSLNotInstalled.Text" xml:space="preserve">
+    <value>WSL of Windows Component is not installed. You can only use WSL2.</value>
+  </data>
+  <data name="LabelInboxWSLNotInstalled.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LabelInboxWSLNotInstalled.Name" xml:space="preserve">
+    <value>LabelInboxWSLNotInstalled</value>
+  </data>
+  <data name="&gt;&gt;LabelInboxWSLNotInstalled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelInboxWSLNotInstalled.Parent" xml:space="preserve">
+    <value>PanelDefaultVersion</value>
+  </data>
+  <data name="&gt;&gt;LabelInboxWSLNotInstalled.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LabelWSLUpdateIsRecommended.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelWSLUpdateIsRecommended.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 44</value>
+  </data>
+  <data name="LabelWSLUpdateIsRecommended.Size" type="System.Drawing.Size, System.Drawing">
+    <value>760, 37</value>
+  </data>
+  <data name="LabelWSLUpdateIsRecommended.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabelWSLUpdateIsRecommended.Text" xml:space="preserve">
+    <value>Updating WSL is recommended. To update, press Ctrl+Shift+U.</value>
+  </data>
+  <data name="LabelWSLUpdateIsRecommended.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLUpdateIsRecommended.Name" xml:space="preserve">
+    <value>LabelWSLUpdateIsRecommended</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLUpdateIsRecommended.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLUpdateIsRecommended.Parent" xml:space="preserve">
+    <value>PanelDefaultVersion</value>
+  </data>
+  <data name="&gt;&gt;LabelWSLUpdateIsRecommended.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PanelDefaultVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 42</value>
+  </data>
+  <data name="PanelDefaultVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1004, 81</value>
+  </data>
+  <data name="PanelDefaultVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PanelDefaultVersion.Name" xml:space="preserve">
+    <value>PanelDefaultVersion</value>
+  </data>
+  <data name="&gt;&gt;PanelDefaultVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelDefaultVersion.Parent" xml:space="preserve">
+    <value>GroupBoxGeneral</value>
+  </data>
+  <data name="&gt;&gt;PanelDefaultVersion.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelKernel.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelKernel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelKernel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 42</value>
+  </data>
+  <data name="LabelKernel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="LabelKernel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LabelKernel.Text" xml:space="preserve">
+    <value>&amp;Kernel:</value>
+  </data>
+  <data name="&gt;&gt;LabelKernel.Name" xml:space="preserve">
+    <value>LabelKernel</value>
+  </data>
+  <data name="&gt;&gt;LabelKernel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelKernel.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;LabelKernel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LabelKernelCommandLine.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelKernelCommandLine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelKernelCommandLine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelKernelCommandLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 147</value>
+  </data>
+  <data name="LabelKernelCommandLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 43</value>
+  </data>
+  <data name="LabelKernelCommandLine.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabelKernelCommandLine.Text" xml:space="preserve">
+    <value>Kernel &amp;command line:</value>
+  </data>
+  <data name="&gt;&gt;LabelKernelCommandLine.Name" xml:space="preserve">
+    <value>LabelKernelCommandLine</value>
+  </data>
+  <data name="&gt;&gt;LabelKernelCommandLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelKernelCommandLine.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;LabelKernelCommandLine.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LabelVmIdleTimeout.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelVmIdleTimeout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelVmIdleTimeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 613</value>
+  </data>
+  <data name="LabelVmIdleTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 37</value>
+  </data>
+  <data name="LabelVmIdleTimeout.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="LabelVmIdleTimeout.Text" xml:space="preserve">
+    <value>VM idle &amp;timeout:</value>
+  </data>
+  <data name="&gt;&gt;LabelVmIdleTimeout.Name" xml:space="preserve">
+    <value>LabelVmIdleTimeout</value>
+  </data>
+  <data name="&gt;&gt;LabelVmIdleTimeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelVmIdleTimeout.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;LabelVmIdleTimeout.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="LabelSwapFile.GenerateMember" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LabelSwapFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelSwapFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 357</value>
+  </data>
+  <data name="LabelSwapFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 37</value>
+  </data>
+  <data name="LabelSwapFile.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LabelSwapFile.Text" xml:space="preserve">
+    <value>S&amp;wap file:</value>
+  </data>
+  <data name="&gt;&gt;LabelSwapFile.Name" xml:space="preserve">
+    <value>LabelSwapFile</value>
+  </data>
+  <data name="&gt;&gt;LabelSwapFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelSwapFile.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;LabelSwapFile.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="LabelMemory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelMemory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelMemory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 252</value>
+  </data>
+  <data name="LabelMemory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 43</value>
+  </data>
+  <data name="LabelMemory.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LabelMemory.Text" xml:space="preserve">
+    <value>&amp;Memory:</value>
+  </data>
+  <data name="&gt;&gt;LabelMemory.Name" xml:space="preserve">
+    <value>LabelMemory</value>
+  </data>
+  <data name="&gt;&gt;LabelMemory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelMemory.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;LabelMemory.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LabelProcessors.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelProcessors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelProcessors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 252</value>
+  </data>
+  <data name="LabelProcessors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 43</value>
+  </data>
+  <data name="LabelProcessors.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LabelProcessors.Text" xml:space="preserve">
+    <value>&amp;Processors:</value>
+  </data>
+  <data name="&gt;&gt;LabelProcessors.Name" xml:space="preserve">
+    <value>LabelProcessors</value>
+  </data>
+  <data name="&gt;&gt;LabelProcessors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelProcessors.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;LabelProcessors.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LabelSwap.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelSwap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelSwap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 254</value>
+  </data>
+  <data name="LabelSwap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 43</value>
+  </data>
+  <data name="LabelSwap.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LabelSwap.Text" xml:space="preserve">
+    <value>&amp;Swap:</value>
+  </data>
+  <data name="&gt;&gt;LabelSwap.Name" xml:space="preserve">
+    <value>LabelSwap</value>
+  </data>
+  <data name="&gt;&gt;LabelSwap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelSwap.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;LabelSwap.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="GroupBoxGeneral.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="GroupBoxGeneral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1036, 131</value>
+  </data>
+  <data name="GroupBoxGeneral.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GroupBoxGeneral.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGeneral.Name" xml:space="preserve">
+    <value>GroupBoxGeneral</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGeneral.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGeneral.Parent" xml:space="preserve">
+    <value>PageSettings</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxGeneral.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TextBoxKernel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 88</value>
+  </data>
+  <data name="TextBoxKernel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>788, 43</value>
+  </data>
+  <data name="TextBoxKernel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxKernel.Name" xml:space="preserve">
+    <value>TextBoxKernel</value>
+  </data>
+  <data name="&gt;&gt;TextBoxKernel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxKernel.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;TextBoxKernel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonKernelOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>810, 88</value>
+  </data>
+  <data name="ButtonKernelOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 43</value>
+  </data>
+  <data name="ButtonKernelOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ButtonKernelOpen.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;ButtonKernelOpen.Name" xml:space="preserve">
+    <value>ButtonKernelOpen</value>
+  </data>
+  <data name="&gt;&gt;ButtonKernelOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonKernelOpen.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;ButtonKernelOpen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CheckBoxDefaultKernel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultKernel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 90</value>
+  </data>
+  <data name="CheckBoxDefaultKernel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultKernel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="CheckBoxDefaultKernel.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultKernel.Name" xml:space="preserve">
+    <value>CheckBoxDefaultKernel</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultKernel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultKernel.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultKernel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TextBoxKernelCommandLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 193</value>
+  </data>
+  <data name="TextBoxKernelCommandLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 43</value>
+  </data>
+  <data name="TextBoxKernelCommandLine.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TextBoxKernelCommandLine.Name" xml:space="preserve">
+    <value>TextBoxKernelCommandLine</value>
+  </data>
+  <data name="&gt;&gt;TextBoxKernelCommandLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxKernelCommandLine.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;TextBoxKernelCommandLine.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CheckBoxDefaultKernelCommandLine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultKernelCommandLine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxDefaultKernelCommandLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 195</value>
+  </data>
+  <data name="CheckBoxDefaultKernelCommandLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultKernelCommandLine.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="CheckBoxDefaultKernelCommandLine.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultKernelCommandLine.Name" xml:space="preserve">
+    <value>CheckBoxDefaultKernelCommandLine</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultKernelCommandLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultKernelCommandLine.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultKernelCommandLine.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TextBoxMemory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 298</value>
+  </data>
+  <data name="TextBoxMemory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 43</value>
+  </data>
+  <data name="TextBoxMemory.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TextBoxMemory.Name" xml:space="preserve">
+    <value>TextBoxMemory</value>
+  </data>
+  <data name="&gt;&gt;TextBoxMemory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxMemory.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;TextBoxMemory.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CheckBoxDefaultMemory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultMemory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxDefaultMemory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 300</value>
+  </data>
+  <data name="CheckBoxDefaultMemory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultMemory.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="CheckBoxDefaultMemory.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultMemory.Name" xml:space="preserve">
+    <value>CheckBoxDefaultMemory</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultMemory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultMemory.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultMemory.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="NumericProcessors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 298</value>
+  </data>
+  <data name="NumericProcessors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 43</value>
+  </data>
+  <data name="NumericProcessors.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;NumericProcessors.Name" xml:space="preserve">
+    <value>NumericProcessors</value>
+  </data>
+  <data name="&gt;&gt;NumericProcessors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumericProcessors.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;NumericProcessors.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CheckBoxDefaultProcessors.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultProcessors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxDefaultProcessors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 300</value>
+  </data>
+  <data name="CheckBoxDefaultProcessors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultProcessors.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="CheckBoxDefaultProcessors.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultProcessors.Name" xml:space="preserve">
+    <value>CheckBoxDefaultProcessors</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultProcessors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultProcessors.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultProcessors.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TextBoxSwap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 300</value>
+  </data>
+  <data name="TextBoxSwap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 43</value>
+  </data>
+  <data name="TextBoxSwap.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSwap.Name" xml:space="preserve">
+    <value>TextBoxSwap</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSwap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSwap.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSwap.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="CheckBoxDefaultSwap.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultSwap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxDefaultSwap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 300</value>
+  </data>
+  <data name="CheckBoxDefaultSwap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultSwap.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="CheckBoxDefaultSwap.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultSwap.Name" xml:space="preserve">
+    <value>CheckBoxDefaultSwap</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultSwap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultSwap.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultSwap.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TextBoxSwapFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 403</value>
+  </data>
+  <data name="TextBoxSwapFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>788, 43</value>
+  </data>
+  <data name="TextBoxSwapFile.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSwapFile.Name" xml:space="preserve">
+    <value>TextBoxSwapFile</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSwapFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSwapFile.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;TextBoxSwapFile.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ButtonSwapFileOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>810, 403</value>
+  </data>
+  <data name="ButtonSwapFileOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 43</value>
+  </data>
+  <data name="ButtonSwapFileOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="ButtonSwapFileOpen.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;ButtonSwapFileOpen.Name" xml:space="preserve">
+    <value>ButtonSwapFileOpen</value>
+  </data>
+  <data name="&gt;&gt;ButtonSwapFileOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonSwapFileOpen.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;ButtonSwapFileOpen.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="CheckBoxDefaultSwapFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultSwapFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxDefaultSwapFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 405</value>
+  </data>
+  <data name="CheckBoxDefaultSwapFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultSwapFile.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="CheckBoxDefaultSwapFile.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultSwapFile.Name" xml:space="preserve">
+    <value>CheckBoxDefaultSwapFile</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultSwapFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultSwapFile.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultSwapFile.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="CheckBoxLocalhostForwarding.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxLocalhostForwarding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 462</value>
+  </data>
+  <data name="CheckBoxLocalhostForwarding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 41</value>
+  </data>
+  <data name="CheckBoxLocalhostForwarding.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="CheckBoxLocalhostForwarding.Text" xml:space="preserve">
+    <value>Forward &amp;localhost</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxLocalhostForwarding.Name" xml:space="preserve">
+    <value>CheckBoxLocalhostForwarding</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxLocalhostForwarding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxLocalhostForwarding.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxLocalhostForwarding.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="CheckBoxSafeMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxSafeMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 462</value>
+  </data>
+  <data name="CheckBoxSafeMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="CheckBoxSafeMode.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="CheckBoxSafeMode.Text" xml:space="preserve">
+    <value>Sa&amp;fe mode</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSafeMode.Name" xml:space="preserve">
+    <value>CheckBoxSafeMode</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSafeMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSafeMode.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxSafeMode.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="CheckBoxPageReporting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxPageReporting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 509</value>
+  </data>
+  <data name="CheckBoxPageReporting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 41</value>
+  </data>
+  <data name="CheckBoxPageReporting.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="CheckBoxPageReporting.Text" xml:space="preserve">
+    <value>Enable &amp;reclaiming unused memory</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxPageReporting.Name" xml:space="preserve">
+    <value>CheckBoxPageReporting</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxPageReporting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxPageReporting.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxPageReporting.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="CheckBoxGUIApplications.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxGUIApplications.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 509</value>
+  </data>
+  <data name="CheckBoxGUIApplications.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 41</value>
+  </data>
+  <data name="CheckBoxGUIApplications.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="CheckBoxGUIApplications.Text" xml:space="preserve">
+    <value>Enable &amp;GUI applications</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxGUIApplications.Name" xml:space="preserve">
+    <value>CheckBoxGUIApplications</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxGUIApplications.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxGUIApplications.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxGUIApplications.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="CheckBoxDebugConsole.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDebugConsole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 556</value>
+  </data>
+  <data name="CheckBoxDebugConsole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 41</value>
+  </data>
+  <data name="CheckBoxDebugConsole.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="CheckBoxDebugConsole.Text" xml:space="preserve">
+    <value>&amp;Debug console</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDebugConsole.Name" xml:space="preserve">
+    <value>CheckBoxDebugConsole</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDebugConsole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDebugConsole.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDebugConsole.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="CheckBoxNestedVirtualization.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxNestedVirtualization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 556</value>
+  </data>
+  <data name="CheckBoxNestedVirtualization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 41</value>
+  </data>
+  <data name="CheckBoxNestedVirtualization.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="CheckBoxNestedVirtualization.Text" xml:space="preserve">
+    <value>Nested &amp;virtualization</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxNestedVirtualization.Name" xml:space="preserve">
+    <value>CheckBoxNestedVirtualization</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxNestedVirtualization.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxNestedVirtualization.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxNestedVirtualization.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="NumericVmIdleTimeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 659</value>
+  </data>
+  <data name="NumericVmIdleTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 43</value>
+  </data>
+  <data name="NumericVmIdleTimeout.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;NumericVmIdleTimeout.Name" xml:space="preserve">
+    <value>NumericVmIdleTimeout</value>
+  </data>
+  <data name="&gt;&gt;NumericVmIdleTimeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NumericVmIdleTimeout.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;NumericVmIdleTimeout.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="CheckBoxDefaultVmIdleTimeout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBoxDefaultVmIdleTimeout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 660</value>
+  </data>
+  <data name="CheckBoxDefaultVmIdleTimeout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="CheckBoxDefaultVmIdleTimeout.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="CheckBoxDefaultVmIdleTimeout.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultVmIdleTimeout.Name" xml:space="preserve">
+    <value>CheckBoxDefaultVmIdleTimeout</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultVmIdleTimeout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultVmIdleTimeout.Parent" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxDefaultVmIdleTimeout.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="GroupBoxConfiguration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 154</value>
+  </data>
+  <data name="GroupBoxConfiguration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1036, 723</value>
+  </data>
+  <data name="GroupBoxConfiguration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBoxConfiguration.Text" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxConfiguration.Name" xml:space="preserve">
+    <value>GroupBoxConfiguration</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxConfiguration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxConfiguration.Parent" xml:space="preserve">
+    <value>PageSettings</value>
+  </data>
+  <data name="&gt;&gt;GroupBoxConfiguration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PageSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 55</value>
+  </data>
+  <data name="PageSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>16, 16, 16, 16</value>
+  </data>
+  <data name="PageSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1074, 891</value>
+  </data>
+  <data name="PageSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PageSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;PageSettings.Name" xml:space="preserve">
+    <value>PageSettings</value>
+  </data>
+  <data name="&gt;&gt;PageSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PageSettings.Parent" xml:space="preserve">
+    <value>TabMain</value>
+  </data>
+  <data name="&gt;&gt;PageSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 47</value>
+  </data>
+  <data name="TabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1094, 956</value>
+  </data>
+  <data name="TabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TabMain.Name" xml:space="preserve">
+    <value>TabMain</value>
+  </data>
+  <data name="&gt;&gt;TabMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="MenuItemUpdateWSLDefault.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+U</value>
+  </data>
+  <data name="MenuItemUpdateWSLDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 48</value>
+  </data>
+  <data name="MenuItemUpdateWSLDefault.Text" xml:space="preserve">
+    <value>&amp;Default</value>
+  </data>
+  <data name="MenuItemUpdateWSLFromWeb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 48</value>
+  </data>
+  <data name="MenuItemUpdateWSLFromWeb.Text" xml:space="preserve">
+    <value>From &amp;Web</value>
+  </data>
+  <data name="MenuItemUpdateWSLUsingPrerelease.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 48</value>
+  </data>
+  <data name="MenuItemUpdateWSLUsingPrerelease.Text" xml:space="preserve">
+    <value>Using &amp;pre-release</value>
+  </data>
+  <data name="MenuItemUpdateWSL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 48</value>
+  </data>
+  <data name="MenuItemUpdateWSL.Text" xml:space="preserve">
+    <value>&amp;Update WSL</value>
+  </data>
+  <data name="MenuItemShutdownWSL.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+S</value>
+  </data>
+  <data name="MenuItemShutdownWSL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 48</value>
+  </data>
+  <data name="MenuItemShutdownWSL.Text" xml:space="preserve">
+    <value>&amp;Shutdown WSL</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>505, 6</value>
+  </data>
+  <data name="MenuItemExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 48</value>
+  </data>
+  <data name="MenuItemExit.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="MenuItemFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 43</value>
+  </data>
+  <data name="MenuItemFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="MenuItemDistributionInstall.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+I</value>
+  </data>
+  <data name="MenuItemDistributionInstall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 48</value>
+  </data>
+  <data name="MenuItemDistributionInstall.Text" xml:space="preserve">
+    <value>&amp;Install new distribution...</value>
+  </data>
+  <data name="MenuItemDistributionImport.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+M</value>
+  </data>
+  <data name="MenuItemDistributionImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 48</value>
+  </data>
+  <data name="MenuItemDistributionImport.Text" xml:space="preserve">
+    <value>I&amp;mport...</value>
+  </data>
+  <data name="MenuItemDistributionImportInPlace.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Shift+M</value>
+  </data>
+  <data name="MenuItemDistributionImportInPlace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 48</value>
+  </data>
+  <data name="MenuItemDistributionImportInPlace.Text" xml:space="preserve">
+    <value>Import in &amp;place...</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 6</value>
+  </data>
+  <data name="MenuItemDistributionOpenShell.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+H</value>
+  </data>
+  <data name="MenuItemDistributionOpenShell.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 48</value>
+  </data>
+  <data name="MenuItemDistributionOpenShell.Text" xml:space="preserve">
+    <value>Open &amp;shell</value>
+  </data>
+  <data name="MenuItemDistributionOpenInExplorer.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+E</value>
+  </data>
+  <data name="MenuItemDistributionOpenInExplorer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 48</value>
+  </data>
+  <data name="MenuItemDistributionOpenInExplorer.Text" xml:space="preserve">
+    <value>Open in &amp;Explorer</value>
+  </data>
+  <data name="MenuItemDistributionExport.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+X</value>
+  </data>
+  <data name="MenuItemDistributionExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 48</value>
+  </data>
+  <data name="MenuItemDistributionExport.Text" xml:space="preserve">
+    <value>E&amp;xport...</value>
+  </data>
+  <data name="MenuItemDistributionTerminate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 48</value>
+  </data>
+  <data name="MenuItemDistributionTerminate.Text" xml:space="preserve">
+    <value>&amp;Terminate...</value>
+  </data>
+  <data name="MenuItemDistributionUnregister.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 48</value>
+  </data>
+  <data name="MenuItemDistributionUnregister.Text" xml:space="preserve">
+    <value>&amp;Unregister...</value>
+  </data>
+  <data name="MenuItemDistribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 43</value>
+  </data>
+  <data name="MenuItemDistribution.Text" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="MenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1094, 47</value>
+  </data>
+  <data name="MenuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="MenuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Name" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>15, 37</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1094, 1003</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;MenuItemFile.Name" xml:space="preserve">
+    <value>MenuItemFile</value>
+  </data>
+  <data name="&gt;&gt;MenuItemFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemUpdateWSL.Name" xml:space="preserve">
+    <value>MenuItemUpdateWSL</value>
+  </data>
+  <data name="&gt;&gt;MenuItemUpdateWSL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemUpdateWSLDefault.Name" xml:space="preserve">
+    <value>MenuItemUpdateWSLDefault</value>
+  </data>
+  <data name="&gt;&gt;MenuItemUpdateWSLDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemUpdateWSLFromWeb.Name" xml:space="preserve">
+    <value>MenuItemUpdateWSLFromWeb</value>
+  </data>
+  <data name="&gt;&gt;MenuItemUpdateWSLFromWeb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemUpdateWSLUsingPrerelease.Name" xml:space="preserve">
+    <value>MenuItemUpdateWSLUsingPrerelease</value>
+  </data>
+  <data name="&gt;&gt;MenuItemUpdateWSLUsingPrerelease.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemShutdownWSL.Name" xml:space="preserve">
+    <value>MenuItemShutdownWSL</value>
+  </data>
+  <data name="&gt;&gt;MenuItemShutdownWSL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
+    <value>ToolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemExit.Name" xml:space="preserve">
+    <value>MenuItemExit</value>
+  </data>
+  <data name="&gt;&gt;MenuItemExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistribution.Name" xml:space="preserve">
+    <value>MenuItemDistribution</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionInstall.Name" xml:space="preserve">
+    <value>MenuItemDistributionInstall</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionInstall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionImport.Name" xml:space="preserve">
+    <value>MenuItemDistributionImport</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionImportInPlace.Name" xml:space="preserve">
+    <value>MenuItemDistributionImportInPlace</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionImportInPlace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionOpenShell.Name" xml:space="preserve">
+    <value>MenuItemDistributionOpenShell</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionOpenShell.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionExport.Name" xml:space="preserve">
+    <value>MenuItemDistributionExport</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionTerminate.Name" xml:space="preserve">
+    <value>MenuItemDistributionTerminate</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionTerminate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionUnregister.Name" xml:space="preserve">
+    <value>MenuItemDistributionUnregister</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionUnregister.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionOpenInExplorer.Name" xml:space="preserve">
+    <value>MenuItemDistributionOpenInExplorer</value>
+  </data>
+  <data name="&gt;&gt;MenuItemDistributionOpenInExplorer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

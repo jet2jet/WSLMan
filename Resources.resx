@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbortProcessPrompt" xml:space="preserve">
+    <value>Abort running process? (Data may be lost.)</value>
+  </data>
+  <data name="CannotChangeVhdFileName" xml:space="preserve">
+    <value>Cannot change .vhdx file name. (The file may be in use.) Reason: {0}</value>
+  </data>
+  <data name="ChangingBasePathPrompt" xml:space="preserve">
+    <value>Before changing the base path, this program will copies files from the previous path to the new path. During copying, please don't use this distribution or otherwise data may be broken.</value>
+  </data>
+  <data name="CloseText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="DistributionInstallDone" xml:space="preserve">
+    <value>Distribution has been installed. To continue setup, will open a console window.</value>
+  </data>
+  <data name="DistributionPageButtonCloseConf" xml:space="preserve">
+    <value>Close &amp;configuration</value>
+  </data>
+  <data name="DistributionPageButtonOpenConf" xml:space="preserve">
+    <value>Open &amp;configuration</value>
+  </data>
+  <data name="ExecutingMessage" xml:space="preserve">
+    <value>Executing... (command: {0})</value>
+  </data>
+  <data name="FailedToRebootMessage" xml:space="preserve">
+    <value>Failed to reboot system.</value>
+  </data>
+  <data name="FileDialogFilterAllFiles" xml:space="preserve">
+    <value>All files (*.*)|*.*</value>
+  </data>
+  <data name="FileDialogFilterHarddiskFiles" xml:space="preserve">
+    <value>Harddisk files (*.vhdx)|*.vhdx</value>
+  </data>
+  <data name="FileDialogFilterTarFiles" xml:space="preserve">
+    <value>tarball files (*.tar)|*.tar</value>
+  </data>
+  <data name="Installing" xml:space="preserve">
+    <value>Installing...</value>
+  </data>
+  <data name="InvalidValueMessage" xml:space="preserve">
+    <value>Invalid value.</value>
+  </data>
+  <data name="NoInstallDistribution" xml:space="preserve">
+    <value>(Without distribution)</value>
+  </data>
+  <data name="OpenOldPathPrompt" xml:space="preserve">
+    <value>Open previous path in Explorer?</value>
+  </data>
+  <data name="ProcessExitedWithCode" xml:space="preserve">
+    <value>Exited with code {0} (command: {1})</value>
+  </data>
+  <data name="TerminateDistributionPrompt" xml:space="preserve">
+    <value>Terminate distribution "{0}"? (Data may be lost.)</value>
+  </data>
+  <data name="UnregisterConfirmPrompt" xml:space="preserve">
+    <value>Are you sure to unregister '{0}'? (All distribution data including .vhdx will be lost.)</value>
+  </data>
+  <data name="WSLExeNotFoundMessage" xml:space="preserve">
+    <value>wsl.exe is not found. Please apply Windows Update.</value>
+  </data>
+  <data name="WSLImportDone" xml:space="preserve">
+    <value>The distribution has been imported.</value>
+  </data>
+  <data name="WSLInstallDone" xml:space="preserve">
+    <value>WSL has been installed.
+
+To apply changes, you must restart your computer. Restart now?</value>
+  </data>
+  <data name="WSLNotStoppedForChangingBasePath" xml:space="preserve">
+    <value>This distribution is not stopped. Before copying the distribution needs to be stopped.</value>
+  </data>
+  <data name="WSLServiceNeedToRestart" xml:space="preserve">
+    <value>To apply changes, WSL service needs to restart.
+
+Restart now? (Console window will be displayed.)</value>
+  </data>
+</root>

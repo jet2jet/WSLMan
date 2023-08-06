@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CheckBoxDebugConsole.Text" xml:space="preserve">
+    <value>デバッグコンソール(&amp;D)</value>
+  </data>
+  <data name="CheckBoxDefaultKernel.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxDefaultKernelCommandLine.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxDefaultMemory.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxDefaultProcessors.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxDefaultSwap.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxDefaultSwapFile.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxDefaultVmIdleTimeout.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxGUIApplications.Text" xml:space="preserve">
+    <value>GUIアプリケーションを有効化(&amp;G)</value>
+  </data>
+  <data name="CheckBoxLocalhostForwarding.Text" xml:space="preserve">
+    <value>localhostをフォワード(&amp;L)</value>
+  </data>
+  <data name="CheckBoxNestedVirtualization.Text" xml:space="preserve">
+    <value>仮想化の入れ子の許可(&amp;V)</value>
+  </data>
+  <data name="CheckBoxPageReporting.Text" xml:space="preserve">
+    <value>メモリ再利用の有効化(&amp;R)</value>
+  </data>
+  <data name="CheckBoxSafeMode.Text" xml:space="preserve">
+    <value>セーフモード(&amp;F)</value>
+  </data>
+  <data name="GroupBoxConfiguration.Text" xml:space="preserve">
+    <value>Config設定</value>
+  </data>
+  <data name="GroupBoxGeneral.Text" xml:space="preserve">
+    <value>全般</value>
+  </data>
+  <data name="LabelDefaultVersion.Text" xml:space="preserve">
+    <value>既定のバージョン:</value>
+  </data>
+  <data name="LabelInboxWSLNotInstalled.Text" xml:space="preserve">
+    <value>WindowsコンポーネントのWSLがインストールされていないため、WSL2のみ使用できます。</value>
+  </data>
+  <data name="LabelKernel.Text" xml:space="preserve">
+    <value>カーネルパス(&amp;K):</value>
+  </data>
+  <data name="LabelKernelCommandLine.Text" xml:space="preserve">
+    <value>カーネルコマンドライン(&amp;C):</value>
+  </data>
+  <data name="LabelMemory.Text" xml:space="preserve">
+    <value>メモリ割り当て(&amp;M):</value>
+  </data>
+  <data name="LabelProcessors.Text" xml:space="preserve">
+    <value>プロセッサ割り当て(&amp;P)</value>
+  </data>
+  <data name="LabelSwap.Text" xml:space="preserve">
+    <value>スワップ割り当て(&amp;S):</value>
+  </data>
+  <data name="LabelSwapFile.Text" xml:space="preserve">
+    <value>スワップファイル(&amp;W):</value>
+  </data>
+  <data name="LabelVmIdleTimeout.Text" xml:space="preserve">
+    <value>VMシャットダウンまでのアイドル時間(&amp;T):</value>
+  </data>
+  <data name="MenuItemDistribution.Text" xml:space="preserve">
+    <value>ディストリビューション</value>
+  </data>
+  <data name="MenuItemDistributionExport.Text" xml:space="preserve">
+    <value>エクスポート(&amp;X)...</value>
+  </data>
+  <data name="MenuItemDistributionImport.Text" xml:space="preserve">
+    <value>インポート(&amp;M)...</value>
+  </data>
+  <data name="MenuItemDistributionImportInPlace.Text" xml:space="preserve">
+    <value>.vhdx をそのままインポート(&amp;P)...</value>
+  </data>
+  <data name="MenuItemDistributionInstall.Text" xml:space="preserve">
+    <value>新しいディストリビューションのインストール(&amp;I)...</value>
+  </data>
+  <data name="MenuItemDistributionOpenInExplorer.Text" xml:space="preserve">
+    <value>エクスプローラーで開く(&amp;E)</value>
+  </data>
+  <data name="MenuItemDistributionOpenShell.Text" xml:space="preserve">
+    <value>シェルを開く(&amp;S)</value>
+  </data>
+  <data name="MenuItemDistributionTerminate.Text" xml:space="preserve">
+    <value>強制終了(&amp;T)...</value>
+  </data>
+  <data name="MenuItemDistributionUnregister.Text" xml:space="preserve">
+    <value>登録の解除(&amp;U)...</value>
+  </data>
+  <data name="MenuItemExit.Text" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="MenuItemFile.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="MenuItemShutdownWSL.Text" xml:space="preserve">
+    <value>WSLのシャットダウン(&amp;S)</value>
+  </data>
+  <data name="MenuItemUpdateWSL.Text" xml:space="preserve">
+    <value>WSLのアップデート(&amp;U)</value>
+  </data>
+  <data name="MenuItemUpdateWSLDefault.Text" xml:space="preserve">
+    <value>既定の更新(&amp;D)</value>
+  </data>
+  <data name="MenuItemUpdateWSLFromWeb.Text" xml:space="preserve">
+    <value>Webから更新(&amp;W)</value>
+  </data>
+  <data name="MenuItemUpdateWSLUsingPrerelease.Text" xml:space="preserve">
+    <value>プレリリース版で更新(&amp;P)</value>
+  </data>
+  <data name="PageSettings.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="RadioWSL1.Text" xml:space="preserve">
+    <value>WSL&amp;1</value>
+  </data>
+  <data name="RadioWSL2.Text" xml:space="preserve">
+    <value>WSL&amp;2</value>
+  </data>
+</root>
