@@ -123,6 +123,21 @@
   <data name="ButtonSetAsDefault.Text" xml:space="preserve">
     <value>既定に設定(&amp;D)</value>
   </data>
+  <data name="CheckBoxAutoMountEnabled.Text" xml:space="preserve">
+    <value>有効(&amp;E)</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountOptions.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxDefaultAutoMountRoot.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxDefaultBootCommand.Text" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="CheckBoxMountFsTab.Text" xml:space="preserve">
+    <value>fstabをマウント(&amp;F)</value>
+  </data>
   <data name="CheckBoxUseSystemd.Text" xml:space="preserve">
     <value>systemdを使う(&amp;S)</value>
   </data>
@@ -132,6 +147,12 @@
   <data name="GroupBoxWslConfBoot.Text" xml:space="preserve">
     <value>ブート設定</value>
   </data>
+  <data name="LabelAutoMountOptions.Text" xml:space="preserve">
+    <value>オプション(&amp;O):</value>
+  </data>
+  <data name="LabelAutoMountRoot.Text" xml:space="preserve">
+    <value>マウント先のルートパス(&amp;R):</value>
+  </data>
   <data name="LabelBasePath.Text" xml:space="preserve">
     <value>ベースパス(&amp;B):</value>
   </data>
@@ -140,9 +161,6 @@
   </data>
   <data name="LabelDefaultUser.Text" xml:space="preserve">
     <value>既定のユーザー(&amp;U):</value>
-  </data>
-  <data name="LabelDefaultUserLoading.Text" xml:space="preserve">
-    <value>読み込み中...</value>
   </data>
   <data name="LabelDistributionName.Text" xml:space="preserve">
     <value>ディストリビューション名(&amp;N):</value>
