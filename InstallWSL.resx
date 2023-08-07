@@ -66,14 +66,14 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LabelInstallInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 16</value>
+    <value>8, 8</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LabelInstallInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelInstallInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>768, 83</value>
+    <value>358, 34</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LabelInstallInfo.TabIndex" type="System.Int32, mscorlib">
@@ -101,10 +101,13 @@
     <value>NoControl</value>
   </data>
   <data name="LabelInstallNote.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 99</value>
+    <value>8, 46</value>
+  </data>
+  <data name="LabelInstallNote.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelInstallNote.Size" type="System.Drawing.Size, System.Drawing">
-    <value>768, 41</value>
+    <value>358, 17</value>
   </data>
   <data name="LabelInstallNote.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -128,10 +131,13 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonInstall.Location" type="System.Drawing.Point, System.Drawing">
-    <value>264, 156</value>
+    <value>123, 67</value>
+  </data>
+  <data name="ButtonInstall.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonInstall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 52</value>
+    <value>127, 24</value>
   </data>
   <data name="ButtonInstall.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -152,10 +158,13 @@
     <value>1</value>
   </data>
   <data name="TextBoxInstallProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 224</value>
+    <value>7, 99</value>
+  </data>
+  <data name="TextBoxInstallProgress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
   </data>
   <data name="TextBoxInstallProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>768, 43</value>
+    <value>361, 23</value>
   </data>
   <data name="TextBoxInstallProgress.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -182,13 +191,16 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>15, 37</value>
+    <value>96, 96</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 224</value>
+    <value>373, 100</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
   </data>
   <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>16, 16, 16, 16</value>
+    <value>8, 8, 8, 8</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Install WSL</value>

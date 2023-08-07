@@ -70,7 +70,7 @@ Partial Class InstallDistribution
         'InstallDistribution
         '
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.CancelButton = Me.ButtonClose
         Me.Controls.Add(LabelDistribution)
         Me.Controls.Add(Me.ComboBoxDistribution)

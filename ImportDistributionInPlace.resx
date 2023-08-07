@@ -70,10 +70,14 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LabelFileName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 16</value>
+    <value>8, 8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelFileName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 37</value>
+    <value>112, 15</value>
   </data>
   <data name="LabelFileName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -103,10 +107,13 @@
     <value>NoControl</value>
   </data>
   <data name="LabelDistributionName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 119</value>
+    <value>8, 54</value>
+  </data>
+  <data name="LabelDistributionName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelDistributionName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 37</value>
+    <value>104, 15</value>
   </data>
   <data name="LabelDistributionName.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -127,10 +134,13 @@
     <value>4</value>
   </data>
   <data name="TextBoxProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 282</value>
+    <value>7, 136</value>
+  </data>
+  <data name="TextBoxProgress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="TextBoxProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 36</value>
+    <value>359, 16</value>
   </data>
   <data name="TextBoxProgress.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -151,10 +161,13 @@
     <value>0</value>
   </data>
   <data name="TextBoxFileName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 60</value>
+    <value>8, 27</value>
+  </data>
+  <data name="TextBoxFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="TextBoxFileName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>680, 43</value>
+    <value>319, 23</value>
   </data>
   <data name="TextBoxFileName.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -175,10 +188,13 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonOpenFileName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>707, 55</value>
+    <value>330, 27</value>
+  </data>
+  <data name="ButtonOpenFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonOpenFileName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 52</value>
+    <value>37, 23</value>
   </data>
   <data name="ButtonOpenFileName.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -199,10 +215,13 @@
     <value>3</value>
   </data>
   <data name="TextBoxDistributionName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 163</value>
+    <value>8, 73</value>
+  </data>
+  <data name="TextBoxDistributionName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="TextBoxDistributionName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 43</value>
+    <value>361, 23</value>
   </data>
   <data name="TextBoxDistributionName.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -223,10 +242,13 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonDoImport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 222</value>
+    <value>95, 104</value>
+  </data>
+  <data name="ButtonDoImport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonDoImport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 52</value>
+    <value>90, 24</value>
   </data>
   <data name="ButtonDoImport.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -250,10 +272,13 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>410, 222</value>
+    <value>192, 104</value>
+  </data>
+  <data name="ButtonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 52</value>
+    <value>90, 24</value>
   </data>
   <data name="ButtonCancel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -277,10 +302,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>15, 37</value>
+    <value>96, 96</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 296</value>
+    <value>375, 136</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>

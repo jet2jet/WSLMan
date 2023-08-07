@@ -101,6 +101,11 @@ Partial Class DistributionPage
         resources.ApplyResources(LabelAutoMountOptions, "LabelAutoMountOptions")
         LabelAutoMountOptions.Name = "LabelAutoMountOptions"
         '
+        'LabelVhdFileName
+        '
+        resources.ApplyResources(LabelVhdFileName, "LabelVhdFileName")
+        LabelVhdFileName.Name = "LabelVhdFileName"
+        '
         'TextBoxDistributionName
         '
         resources.ApplyResources(Me.TextBoxDistributionName, "TextBoxDistributionName")
@@ -241,15 +246,10 @@ Partial Class DistributionPage
         resources.ApplyResources(Me.TextBoxVhdFileName, "TextBoxVhdFileName")
         Me.TextBoxVhdFileName.Name = "TextBoxVhdFileName"
         '
-        'LabelVhdFileName
-        '
-        resources.ApplyResources(LabelVhdFileName, "LabelVhdFileName")
-        LabelVhdFileName.Name = "LabelVhdFileName"
-        '
         'DistributionPage
         '
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.Transparent
         Me.Controls.Add(LabelDistributionName)
         Me.Controls.Add(Me.TextBoxDistributionName)

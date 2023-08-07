@@ -66,10 +66,14 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LabelFileName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 16</value>
+    <value>8, 8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelFileName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 37</value>
+    <value>112, 15</value>
   </data>
   <data name="LabelFileName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -96,10 +100,13 @@
     <value>True</value>
   </data>
   <data name="LabelDistributionName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 176</value>
+    <value>8, 77</value>
+  </data>
+  <data name="LabelDistributionName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelDistributionName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 37</value>
+    <value>104, 15</value>
   </data>
   <data name="LabelDistributionName.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -126,10 +133,13 @@
     <value>True</value>
   </data>
   <data name="LabelInstallLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 279</value>
+    <value>8, 123</value>
+  </data>
+  <data name="LabelInstallLocation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelInstallLocation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 37</value>
+    <value>87, 15</value>
   </data>
   <data name="LabelInstallLocation.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -156,10 +166,13 @@
     <value>True</value>
   </data>
   <data name="LabelWSLVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 382</value>
+    <value>9, 171</value>
+  </data>
+  <data name="LabelWSLVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelWSLVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 37</value>
+    <value>74, 15</value>
   </data>
   <data name="LabelWSLVersion.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -180,10 +193,13 @@
     <value>10</value>
   </data>
   <data name="TextBoxFileName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 60</value>
+    <value>8, 27</value>
+  </data>
+  <data name="TextBoxFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="TextBoxFileName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>680, 43</value>
+    <value>319, 23</value>
   </data>
   <data name="TextBoxFileName.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -201,10 +217,13 @@
     <value>2</value>
   </data>
   <data name="ButtonOpenFileName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>707, 55</value>
+    <value>331, 27</value>
+  </data>
+  <data name="ButtonOpenFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonOpenFileName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 52</value>
+    <value>37, 23</value>
   </data>
   <data name="ButtonOpenFileName.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -225,10 +244,13 @@
     <value>3</value>
   </data>
   <data name="TextBoxDistributionName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 220</value>
+    <value>8, 96</value>
+  </data>
+  <data name="TextBoxDistributionName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="TextBoxDistributionName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 43</value>
+    <value>361, 23</value>
   </data>
   <data name="TextBoxDistributionName.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -246,10 +268,13 @@
     <value>6</value>
   </data>
   <data name="TextBoxInstallLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 323</value>
+    <value>8, 142</value>
+  </data>
+  <data name="TextBoxInstallLocation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="TextBoxInstallLocation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>680, 43</value>
+    <value>319, 23</value>
   </data>
   <data name="TextBoxInstallLocation.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -271,10 +296,13 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonChangeInstallLocation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>707, 318</value>
+    <value>331, 142</value>
+  </data>
+  <data name="ButtonChangeInstallLocation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonChangeInstallLocation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 52</value>
+    <value>37, 23</value>
   </data>
   <data name="ButtonChangeInstallLocation.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -298,10 +326,13 @@
     <value>True</value>
   </data>
   <data name="CheckBoxIsVhd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 119</value>
+    <value>9, 54</value>
+  </data>
+  <data name="CheckBoxIsVhd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="CheckBoxIsVhd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 41</value>
+    <value>107, 19</value>
   </data>
   <data name="CheckBoxIsVhd.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -325,10 +356,13 @@
     <value>True</value>
   </data>
   <data name="RadioWSL2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>307, 380</value>
+    <value>145, 169</value>
+  </data>
+  <data name="RadioWSL2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="RadioWSL2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 41</value>
+    <value>54, 19</value>
   </data>
   <data name="RadioWSL2.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -352,10 +386,13 @@
     <value>True</value>
   </data>
   <data name="RadioWSL1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 380</value>
+    <value>220, 169</value>
+  </data>
+  <data name="RadioWSL1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="RadioWSL1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 41</value>
+    <value>54, 19</value>
   </data>
   <data name="RadioWSL1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -376,10 +413,13 @@
     <value>11</value>
   </data>
   <data name="ButtonDoImport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 436</value>
+    <value>95, 192</value>
+  </data>
+  <data name="ButtonDoImport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonDoImport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 52</value>
+    <value>90, 24</value>
   </data>
   <data name="ButtonDoImport.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -403,10 +443,13 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>410, 436</value>
+    <value>192, 192</value>
+  </data>
+  <data name="ButtonCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 52</value>
+    <value>90, 24</value>
   </data>
   <data name="ButtonCancel.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -427,10 +470,13 @@
     <value>14</value>
   </data>
   <data name="TextBoxProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 495</value>
+    <value>8, 224</value>
+  </data>
+  <data name="TextBoxProgress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="TextBoxProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 36</value>
+    <value>359, 16</value>
   </data>
   <data name="TextBoxProgress.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -454,14 +500,16 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>15, 37</value>
+    <value>96, 96</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>805, 513</value>
+    <value>376, 224</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
   <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>16, 16, 16, 16</value>
+    <value>8, 8, 8, 8</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>

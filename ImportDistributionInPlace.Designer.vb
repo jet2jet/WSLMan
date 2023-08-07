@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class ImportDistributionInPlace
     Inherits System.Windows.Forms.Form
 
@@ -83,7 +83,7 @@ Partial Class ImportDistributionInPlace
         'ImportDistributionInPlace
         '
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.Controls.Add(Me.TextBoxProgress)
         Me.Controls.Add(LabelFileName)
         Me.Controls.Add(Me.TextBoxFileName)

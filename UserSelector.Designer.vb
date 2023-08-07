@@ -65,7 +65,7 @@ Partial Class UserSelector
         '
         Me.AcceptButton = Me.ButtonOK
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.CancelButton = Me.ButtonCancel
         Me.Controls.Add(LabelUser)
         Me.Controls.Add(Me.LabelLoading)

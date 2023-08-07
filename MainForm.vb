@@ -171,6 +171,21 @@ Public Class MainForm
         UpdateWslconfigBase(Sub(content) ConfWriteOrRemoveBooleanValue(content, Section, Name, Value))
     End Sub
 
+    Private Sub LayoutForm()
+        PanelSettings.SuspendLayout()
+        GroupBoxGeneral.SuspendLayout()
+        GroupBoxConfiguration.SuspendLayout()
+
+        GroupBoxConfiguration.ClientSize = New Size(GroupBoxConfiguration.ClientSize.Width, NumericVmIdleTimeout.Bottom + 8)
+        PanelSettings.ClientSize = New Size(PanelSettings.ClientSize.Width, GroupBoxConfiguration.Bottom + PanelSettings.Padding.Bottom)
+
+        GroupBoxConfiguration.ResumeLayout()
+        GroupBoxGeneral.ResumeLayout()
+        PanelSettings.ResumeLayout()
+        TabMain.ClientSize = New Size(TabMain.ClientSize.Width, PageSettings.Height)
+        ClientSize = New Size(ClientSize.Width, TabMain.Height + 8)
+    End Sub
+
     Private Sub InitForm()
         IsLoading = True
         Dim inboxInstalled = IsInboxWSLInstalled()
@@ -235,6 +250,7 @@ Public Class MainForm
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles Me.Load
         Text = GetApplicationName()
+        LayoutForm()
         InitForm()
         LoadDistributions()
         OnResizePageSettings()
@@ -246,41 +262,42 @@ Public Class MainForm
         PageSettings.SuspendLayout()
         GroupBoxGeneral.SuspendLayout()
         GroupBoxConfiguration.SuspendLayout()
-        Dim isOverflow = PageSettings.Height < GroupBoxConfiguration.Bottom + PageSettings.Padding.Bottom
-        Dim innerWidth = PageSettings.ClientSize.Width - PageSettings.Padding.Horizontal
-        Dim halfWidth = CInt((innerWidth - PageSettings.Padding.Horizontal - 16) / 2)
-        Dim memProcSwapWidth = CInt((innerWidth - PageSettings.Padding.Horizontal - 32) / 3)
+        Dim isOverflow = PageSettings.Height < PanelSettings.Bottom
+        Dim innerWidth = PageSettings.ClientSize.Width - PanelSettings.Padding.Horizontal
+        Dim halfWidth = CInt((innerWidth - PanelSettings.Padding.Horizontal - 8) / 2)
+        Dim memProcSwapWidth = CInt((innerWidth - PanelSettings.Padding.Horizontal - 16) / 3)
 
+        PanelSettings.Width = PageSettings.ClientSize.Width
         GroupBoxGeneral.Width = innerWidth
         GroupBoxConfiguration.Width = innerWidth
 
-        TextBoxKernel.Width = innerWidth - CheckBoxDefaultKernel.Width - PageSettings.Padding.Horizontal - 16 - ButtonKernelOpen.Width - 8
-        ButtonKernelOpen.Left = TextBoxKernel.Right + 8
-        CheckBoxDefaultKernel.Left = innerWidth - CheckBoxDefaultKernel.Width - PageSettings.Padding.Right
-        TextBoxKernelCommandLine.Width = innerWidth - CheckBoxDefaultKernelCommandLine.Width - PageSettings.Padding.Horizontal - 16
-        CheckBoxDefaultKernelCommandLine.Left = innerWidth - CheckBoxDefaultKernelCommandLine.Width - PageSettings.Padding.Right
+        TextBoxKernel.Width = innerWidth - CheckBoxDefaultKernel.Width - PanelSettings.Padding.Horizontal - 8 - ButtonKernelOpen.Width - 4
+        ButtonKernelOpen.Left = TextBoxKernel.Right + 4
+        CheckBoxDefaultKernel.Left = innerWidth - CheckBoxDefaultKernel.Width - PanelSettings.Padding.Right
+        TextBoxKernelCommandLine.Width = innerWidth - CheckBoxDefaultKernelCommandLine.Width - PanelSettings.Padding.Horizontal - 8
+        CheckBoxDefaultKernelCommandLine.Left = innerWidth - CheckBoxDefaultKernelCommandLine.Width - PanelSettings.Padding.Right
 
-        CheckBoxDefaultSwap.Left = innerWidth - CheckBoxDefaultSwap.Width - PageSettings.Padding.Right
-        TextBoxMemory.Width = memProcSwapWidth - CheckBoxDefaultMemory.Width - 16
-        CheckBoxDefaultMemory.Left = TextBoxMemory.Right + 16
-        LabelProcessors.Left = CheckBoxDefaultMemory.Right + 16
-        NumericProcessors.Left = CheckBoxDefaultMemory.Right + 16
-        NumericProcessors.Width = memProcSwapWidth - CheckBoxDefaultProcessors.Width - 16
-        CheckBoxDefaultProcessors.Left = NumericProcessors.Right + 16
-        LabelSwap.Left = CheckBoxDefaultProcessors.Right + 16
-        TextBoxSwap.Left = CheckBoxDefaultProcessors.Right + 16
-        TextBoxSwap.Width = memProcSwapWidth - CheckBoxDefaultSwap.Width - 16
+        CheckBoxDefaultSwap.Left = innerWidth - CheckBoxDefaultSwap.Width - PanelSettings.Padding.Right
+        TextBoxMemory.Width = memProcSwapWidth - CheckBoxDefaultMemory.Width - 8
+        CheckBoxDefaultMemory.Left = TextBoxMemory.Right + 8
+        LabelProcessors.Left = CheckBoxDefaultMemory.Right + 8
+        NumericProcessors.Left = CheckBoxDefaultMemory.Right + 8
+        NumericProcessors.Width = memProcSwapWidth - CheckBoxDefaultProcessors.Width - 8
+        CheckBoxDefaultProcessors.Left = NumericProcessors.Right + 8
+        LabelSwap.Left = CheckBoxDefaultProcessors.Right + 8
+        TextBoxSwap.Left = CheckBoxDefaultProcessors.Right + 8
+        TextBoxSwap.Width = memProcSwapWidth - CheckBoxDefaultSwap.Width - 8
 
-        TextBoxSwapFile.Width = innerWidth - CheckBoxDefaultSwapFile.Width - PageSettings.Padding.Horizontal - 16 - ButtonSwapFileOpen.Width - 8
-        ButtonSwapFileOpen.Left = TextBoxSwapFile.Right + 8
-        CheckBoxDefaultSwapFile.Left = innerWidth - CheckBoxDefaultSwapFile.Width - PageSettings.Padding.Right
+        TextBoxSwapFile.Width = innerWidth - CheckBoxDefaultSwapFile.Width - PanelSettings.Padding.Horizontal - 8 - ButtonSwapFileOpen.Width - 4
+        ButtonSwapFileOpen.Left = TextBoxSwapFile.Right + 4
+        CheckBoxDefaultSwapFile.Left = innerWidth - CheckBoxDefaultSwapFile.Width - PanelSettings.Padding.Right
 
-        CheckBoxSafeMode.Left = CheckBoxLocalhostForwarding.Left + halfWidth + 16
-        CheckBoxGUIApplications.Left = CheckBoxPageReporting.Left + halfWidth + 16
-        CheckBoxNestedVirtualization.Left = CheckBoxDebugConsole.Left + halfWidth + 16
+        CheckBoxSafeMode.Left = CheckBoxLocalhostForwarding.Left + halfWidth + 8
+        CheckBoxGUIApplications.Left = CheckBoxPageReporting.Left + halfWidth + 8
+        CheckBoxNestedVirtualization.Left = CheckBoxDebugConsole.Left + halfWidth + 8
 
-        NumericVmIdleTimeout.Width = halfWidth - 16 - CheckBoxDefaultVmIdleTimeout.Width
-        CheckBoxDefaultVmIdleTimeout.Left = NumericVmIdleTimeout.Right + 16
+        NumericVmIdleTimeout.Width = halfWidth - 8 - CheckBoxDefaultVmIdleTimeout.Width
+        CheckBoxDefaultVmIdleTimeout.Left = NumericVmIdleTimeout.Right + 8
 
         PageSettings.VerticalScroll.Visible = isOverflow
         PageSettings.HorizontalScroll.Visible = False
@@ -313,17 +330,17 @@ Public Class MainForm
         UpdateWSLUpdateMenu()
     End Sub
 
-    Private Sub RadioWSL_CheckedChanged(sender As Object, e As EventArgs) Handles RadioWSL2.CheckedChanged, RadioWSL1.CheckedChanged
+    Private Sub RadioWSL_CheckedChanged(sender As Object, e As EventArgs)
         If RadioWSL2.Checked OrElse RadioWSL1.Checked Then
             SetDefaultWSLVersion(If(RadioWSL2.Checked, 2, 1))
         End If
     End Sub
 
-    Private Sub TextBoxKernel_LostFocus(sender As Object, e As EventArgs) Handles TextBoxKernel.LostFocus
+    Private Sub TextBoxKernel_LostFocus(sender As Object, e As EventArgs)
         UpdateWslconfig("wsl2", "kernel", TextBoxKernel.Text, CheckBoxDefaultKernel.Checked)
     End Sub
 
-    Private Sub CheckBoxDefaultKernel_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxDefaultKernel.CheckedChanged
+    Private Sub CheckBoxDefaultKernel_CheckedChanged(sender As Object, e As EventArgs)
         TextBoxKernel.Enabled = Not CheckBoxDefaultKernel.Checked
         ButtonKernelOpen.Enabled = Not CheckBoxDefaultKernel.Checked
         If CheckBoxDefaultKernel.Checked Then
@@ -333,7 +350,7 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub ButtonKernelOpen_Click(sender As Object, e As EventArgs) Handles ButtonKernelOpen.Click
+    Private Sub ButtonKernelOpen_Click(sender As Object, e As EventArgs)
         With CommonOpenFileDialog
             .Filter = Resources.FileDialogFilterAllFiles
             .FileName = TextBoxKernel.Text
@@ -345,11 +362,11 @@ Public Class MainForm
         End With
     End Sub
 
-    Private Sub TextBoxKernelCommandLine_LostFocus(sender As Object, e As EventArgs) Handles TextBoxKernelCommandLine.LostFocus
+    Private Sub TextBoxKernelCommandLine_LostFocus(sender As Object, e As EventArgs)
         UpdateWslconfig("wsl2", "kernelCommandLine", TextBoxKernelCommandLine.Text, CheckBoxDefaultKernelCommandLine.Checked)
     End Sub
 
-    Private Sub CheckBoxDefaultKernelCommandLine_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxDefaultKernelCommandLine.CheckedChanged
+    Private Sub CheckBoxDefaultKernelCommandLine_CheckedChanged(sender As Object, e As EventArgs)
         TextBoxKernelCommandLine.Enabled = Not CheckBoxDefaultKernelCommandLine.Checked
         If CheckBoxDefaultKernel.Checked Then
             UpdateWslconfig("wsl2", "kernelCommandLine", TextBoxKernelCommandLine.Text, CheckBoxDefaultKernelCommandLine.Checked)
@@ -358,11 +375,11 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub TextBoxMemory_LostFocus(sender As Object, e As EventArgs) Handles TextBoxMemory.LostFocus
+    Private Sub TextBoxMemory_LostFocus(sender As Object, e As EventArgs)
         UpdateWslconfig("wsl2", "memory", TextBoxMemory.Text, CheckBoxDefaultMemory.Checked)
     End Sub
 
-    Private Sub CheckBoxDefaultMemory_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxDefaultMemory.CheckedChanged
+    Private Sub CheckBoxDefaultMemory_CheckedChanged(sender As Object, e As EventArgs)
         TextBoxMemory.Enabled = Not CheckBoxDefaultMemory.Checked
         If CheckBoxDefaultKernel.Checked Then
             UpdateWslconfig("wsl2", "memory", TextBoxMemory.Text, CheckBoxDefaultMemory.Checked)
@@ -371,11 +388,11 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub NumericProcessors_LostFocus(sender As Object, e As EventArgs) Handles NumericProcessors.LostFocus
+    Private Sub NumericProcessors_LostFocus(sender As Object, e As EventArgs)
         UpdateWslconfig("wsl2", "processors", NumericProcessors.Text, CheckBoxDefaultProcessors.Checked)
     End Sub
 
-    Private Sub CheckBoxDefaultProcessors_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxDefaultProcessors.CheckedChanged
+    Private Sub CheckBoxDefaultProcessors_CheckedChanged(sender As Object, e As EventArgs)
         NumericProcessors.Enabled = Not CheckBoxDefaultProcessors.Checked
         If CheckBoxDefaultProcessors.Checked Then
             UpdateWslconfig("wsl2", "processors", NumericProcessors.Text, CheckBoxDefaultProcessors.Checked)
@@ -384,11 +401,11 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub TextBoxSwap_LostFocus(sender As Object, e As EventArgs) Handles TextBoxSwap.LostFocus
+    Private Sub TextBoxSwap_LostFocus(sender As Object, e As EventArgs)
         UpdateWslconfig("wsl2", "swap", TextBoxSwap.Text, CheckBoxDefaultSwap.Checked)
     End Sub
 
-    Private Sub CheckBoxDefaultSwap_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxDefaultSwap.CheckedChanged
+    Private Sub CheckBoxDefaultSwap_CheckedChanged(sender As Object, e As EventArgs)
         TextBoxSwap.Enabled = Not CheckBoxDefaultSwap.Checked
         If CheckBoxDefaultProcessors.Checked Then
             UpdateWslconfig("wsl2", "swap", TextBoxSwap.Text, CheckBoxDefaultSwap.Checked)
@@ -397,11 +414,11 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub TextBoxSwapFile_LostFocus(sender As Object, e As EventArgs) Handles TextBoxSwapFile.LostFocus
+    Private Sub TextBoxSwapFile_LostFocus(sender As Object, e As EventArgs)
         UpdateWslconfig("wsl2", "swapFile", TextBoxSwapFile.Text, CheckBoxDefaultSwapFile.Checked)
     End Sub
 
-    Private Sub ButtonSwapFileOpen_Click(sender As Object, e As EventArgs) Handles ButtonSwapFileOpen.Click
+    Private Sub ButtonSwapFileOpen_Click(sender As Object, e As EventArgs)
         With CommonSaveFileDialog
             .Filter = JoinFilter(Resources.FileDialogFilterHarddiskFiles, Resources.FileDialogFilterAllFiles)
             .FileName = TextBoxSwapFile.Text
@@ -413,7 +430,7 @@ Public Class MainForm
         End With
     End Sub
 
-    Private Sub CheckBoxDefaultSwapFile_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxDefaultSwapFile.CheckedChanged
+    Private Sub CheckBoxDefaultSwapFile_CheckedChanged(sender As Object, e As EventArgs)
         TextBoxSwapFile.Enabled = Not CheckBoxDefaultSwapFile.Checked
         ButtonSwapFileOpen.Enabled = Not CheckBoxDefaultSwapFile.Checked
         If CheckBoxDefaultSwapFile.Checked Then
@@ -423,11 +440,11 @@ Public Class MainForm
         End If
     End Sub
 
-    Private Sub NumericVmIdleTimeout_LostFocus(sender As Object, e As EventArgs) Handles NumericVmIdleTimeout.LostFocus
+    Private Sub NumericVmIdleTimeout_LostFocus(sender As Object, e As EventArgs)
         UpdateWslconfig("wsl2", "vmIdleTimeout", NumericVmIdleTimeout.Text, CheckBoxDefaultVmIdleTimeout.Checked)
     End Sub
 
-    Private Sub CheckBoxDefaultVmIdleTimeout_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBoxDefaultVmIdleTimeout.CheckedChanged
+    Private Sub CheckBoxDefaultVmIdleTimeout_CheckedChanged(sender As Object, e As EventArgs)
         NumericVmIdleTimeout.Enabled = Not CheckBoxDefaultVmIdleTimeout.Checked
         If CheckBoxDefaultVmIdleTimeout.Checked Then
             UpdateWslconfig("wsl2", "vmIdleTimeout", NumericVmIdleTimeout.Text, CheckBoxDefaultVmIdleTimeout.Checked)
@@ -437,12 +454,8 @@ Public Class MainForm
     End Sub
 
     Private Sub CheckBoxBooleanData_CheckStateChanged(sender As Object, e As EventArgs) Handles _
-            CheckBoxLocalhostForwarding.CheckStateChanged,
-            CheckBoxSafeMode.CheckStateChanged,
-            CheckBoxPageReporting.CheckStateChanged,
-            CheckBoxGUIApplications.CheckStateChanged,
-            CheckBoxDebugConsole.CheckStateChanged,
-            CheckBoxNestedVirtualization.CheckStateChanged
+        CheckBoxGUIApplications.CheckStateChanged,
+            CheckBoxDebugConsole.CheckStateChanged
         Dim c = CType(sender, CheckBox)
         If c.Tag Is Nothing Then Exit Sub
         UpdateWslconfigBoolean("wsl2", CStr(c.Tag), c.CheckState)

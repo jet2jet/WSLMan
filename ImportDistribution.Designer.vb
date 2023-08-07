@@ -133,7 +133,7 @@ Partial Class ImportDistribution
         'ImportDistribution
         '
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.CancelButton = Me.ButtonCancel
         Me.Controls.Add(Me.TextBoxProgress)
         Me.Controls.Add(LabelFileName)

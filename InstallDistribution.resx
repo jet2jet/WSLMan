@@ -70,10 +70,14 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LabelDistribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
+    <value>8, 8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LabelDistribution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelDistribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 37</value>
+    <value>120, 15</value>
   </data>
   <data name="LabelDistribution.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -100,10 +104,13 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonInstall.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 111</value>
+    <value>56, 60</value>
+  </data>
+  <data name="ButtonInstall.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonInstall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 52</value>
+    <value>127, 24</value>
   </data>
   <data name="ButtonInstall.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -130,10 +137,13 @@
     <value>NoControl</value>
   </data>
   <data name="LabelDistributionLoading.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 56</value>
+    <value>8, 30</value>
+  </data>
+  <data name="LabelDistributionLoading.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="LabelDistributionLoading.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 37</value>
+    <value>59, 15</value>
   </data>
   <data name="LabelDistributionLoading.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -154,10 +164,13 @@
     <value>2</value>
   </data>
   <data name="ComboBoxDistribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 53</value>
+    <value>8, 29</value>
+  </data>
+  <data name="ComboBoxDistribution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ComboBoxDistribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>765, 45</value>
+    <value>357, 23</value>
   </data>
   <data name="ComboBoxDistribution.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -178,10 +191,13 @@
     <value>1</value>
   </data>
   <data name="TextBoxInstallProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 167</value>
+    <value>8, 92</value>
+  </data>
+  <data name="TextBoxInstallProgress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="TextBoxInstallProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>768, 43</value>
+    <value>359, 23</value>
   </data>
   <data name="TextBoxInstallProgress.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -208,10 +224,13 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>408, 111</value>
+    <value>190, 60</value>
+  </data>
+  <data name="ButtonClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="ButtonClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>272, 52</value>
+    <value>127, 24</value>
   </data>
   <data name="ButtonClose.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -235,10 +254,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>15, 37</value>
+    <value>96, 96</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 175</value>
+    <value>373, 92</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>

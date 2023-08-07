@@ -56,7 +56,7 @@ Partial Class InstallWSL
         'InstallWSL
         '
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.Controls.Add(Me.TextBoxInstallProgress)
         Me.Controls.Add(Me.ButtonInstall)
         Me.Controls.Add(LabelInstallNote)

@@ -98,7 +98,7 @@ Partial Class ExportDistribution
         '
         Me.AcceptButton = Me.ButtonOK
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.CancelButton = Me.ButtonCancel
         Me.Controls.Add(LabelDistribution)
         Me.Controls.Add(Me.LabelDistributionName)

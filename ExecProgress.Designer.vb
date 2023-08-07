@@ -43,7 +43,7 @@ Partial Class ExecProgress
         'ExecProgress
         '
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.CancelButton = Me.ButtonAbort
         Me.Controls.Add(Me.TextBoxProgress)
         Me.Controls.Add(Me.ButtonAbort)
