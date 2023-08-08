@@ -325,7 +325,7 @@ Public Module Main
         Else
             serviceName = "LxssService"
         End If
-        Await ExecCommand("powershell.exe", $"Start-Process cmd.exe -Verb runas -ArgumentList @('/c', 'sc.exe', 'stop', '{serviceName}', '&', 'timeout', '/T', '2', '/NOBREAK', '&', 'sc.exe', 'start', '{serviceName}', '&', 'pause')")
+        Await ExecCommandSimple("powershell.exe", $"Restart-Service {serviceName} if (-not $?) {"{"} pause {"}"}")
     End Function
 
     Public Sub RestartWslServiceWithPrompt()
